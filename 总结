@@ -1,1 +1,21 @@
-使用rem把HTML设置为625%；因为谷歌浏览器最小12px；
+1、使用rem把HTML设置为625%；因为谷歌浏览器最小12px；
+2、css常用中文字体英文写法：我们知道网页中使用中文字体最好用其对应的英文名称，这样可以避免出现编码问题导致样式中的中文名称出现乱码，从而不识别。下面是网页中常用的中文字体所对应的英文名称。
+
+（中文	英文
+  宋体	SimSun
+  黑体	SimHei
+  微软雅黑	Microsoft YaHei
+  微软正黑体	Microsoft JhengHei
+  新宋体	NSimSun
+  新细明体	PMingLiU
+  细明体	MingLiU
+  标楷体	DFKai-SB
+  仿宋	FangSong
+  楷体	KaiTi
+  仿宋_GB2312	FangSong_GB2312
+  楷体_GB2312	KaiTi_GB2312
+  PS:css字体降级写法：(越靠前权重越大)；
+  body{
+    font-family: Helvetica, Arial, sans-serif, 'Microsoft YaHei
+  }
+）
